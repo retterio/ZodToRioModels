@@ -1,0 +1,7 @@
+init: index.init
+getState: index.getState
+methods:
+  - method: sayHello
+    tag: test
+    sync: true
+    handler: index.sayHello
